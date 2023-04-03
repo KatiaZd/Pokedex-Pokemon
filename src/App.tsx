@@ -27,7 +27,7 @@ function App() {
      
       response.data.results.forEach(async(pokemonList: Pokemons) => { // Pour chaque pokemon dans la liste de pokemon de l'API
         const pokemonResponse = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonList.name}`) // Je vais chercher les noms du pokemon dans l'API, j'utilise un template suivi de ${name}
-        // console.log(pokemonResponse.data) // Afficher la réponse de l'API dans la console
+        console.log(pokemonResponse.data) // Afficher la réponse de l'API dans la console
     
       setPokemonList((p) => [...p, response.data]) // Je stocke la réponse de l'API dans le tableau pokemonList
 
@@ -42,7 +42,7 @@ function App() {
   return(
     <div className='App'>
       <header className="pokemonHeader">Pokemon</header>
-      <PokemonCollection pokemons={pokemonList} />
+      <PokemonCollection pokemonList={pokemonList} />
   </div>
   );
 }
