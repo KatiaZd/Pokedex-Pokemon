@@ -27,8 +27,6 @@ const App: React.FC = () => {
 
       setNextUrl(response.data.next)
 
-
-     
       response.data.results.forEach(async (pokemon: Pokemons) => { // Pour chaque pokemon dans la liste de pokemon de l'API
         const pokemonResponse = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`) // Je vais chercher les noms du pokemon dans l'API, j'utilise un template suivi de ${name}
         
@@ -53,7 +51,6 @@ const App: React.FC = () => {
       const pokemonResponse = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.name}`)
     setPokemons((p) => [...p, pokemonResponse.data]) 
     })
-
   }
 
   return(
