@@ -1,7 +1,19 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
   text-align: center;
+  color: #fe7295;
+  font-weight: 700;
+}
+
+body {
+  background-color: #ffe5e5;
+  
 }
 

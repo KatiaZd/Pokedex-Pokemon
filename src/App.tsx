@@ -10,7 +10,6 @@ interface Pokemons {
 }
 
 
-
 function App() {
   // Stocker la liste de pokemon que j'ai trié dans un tableau
   // J'utilise le hook useState pour stocker le tableau :
@@ -42,8 +41,8 @@ function App() {
 
 
   return(
-    <div className='App'>
-      <header className="pokemonHeader">Pokemon</header>
+    <div className='app'>
+      <h1>Pokemon</h1>
       <PokemonCollection pokemons={pokemons} />
   </div>
   );

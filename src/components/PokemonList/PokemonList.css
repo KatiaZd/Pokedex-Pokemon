@@ -1,0 +1,76 @@
+.PokemonList__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor:pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #f4b7c6;
+    margin: 1rem;
+    padding: 0 1rem;
+    border-radius: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* Variables selon le type */
+
+/* .rock {
+    background-color: red;
+} */
+/* .ghost {
+    background-color: red;
+} */
+.electric {
+    background-color: #ffffbd;
+}
+.fairy {
+    background-color: #ffc5ce;
+}
+.fire {
+    background-color: #f4b9e1;
+}
+.grass {
+    background-color:#E2F9E1;
+}
+.normal {
+    background-color: #ffc5ba;
+}
+.poison {
+    background-color: #ffaeae;
+}
+/* .bug {
+    background-color: red;
+} */
+
+/* .water {
+    background-color:red;
+} */
+
+.PokemonList__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.PokemonList__img {
+    width: 120px;
+    height: 120px;
+    -o-object-fit: cover ;
+       object-fit: cover ;
+    margin: 1rem;
+}
+
+
+
+.PokemonList__type {
+    text-transform: capitalize ;
+    
+}

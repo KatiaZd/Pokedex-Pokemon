@@ -1,7 +1,5 @@
-import React from "react";
+import './PokemonList.css'
 
-
- 
 interface Props {
     id: number;
     name: string;
@@ -11,15 +9,17 @@ interface Props {
 
 function PokemonList(props : Props) {
     const { id,name, image, type} = props
-    console.log(PokemonList)
+    // console.log(PokemonList)
 
     return (
         <div>
-            <section className="container_PokemonList">
-                <p> {id} </p>
-                <p> {name} </p>
-                <img src={image} alt="" />
-                <p> Type : {type} </p>
+            {/* Variables afin de styliser selon le type */}
+            <section className= {`PokemonList__container ${type}`}> 
+            
+                <p className="PokemonList__Id"> # {id} </p>
+                <p className="PokemonList__name"> {name} </p>
+                <img className="PokemonList__img" src={image} alt="" />
+                <p className="PokemonList__type"> Type : {type} </p>
             </section>
         </div>
     )
