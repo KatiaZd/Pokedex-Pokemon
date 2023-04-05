@@ -2,21 +2,20 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    cursor:pointer;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #f4b7c6;
-    margin: 1rem;
-    padding: 0 1rem;
-    border-radius: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Variables selon le type */
@@ -38,6 +37,9 @@
 }
 .grass {
     background-color:#E2F9E1;
+}
+.ground {
+    background-color: #f4d1b9;
 }
 .normal {
     background-color: #ffc5ba;

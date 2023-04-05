@@ -1,6 +1,7 @@
 import React from "react";
 import { Pokemon } from "../../interfaces";
 import PokemonList from "../PokemonList/PokemonList";   
+import './PokemonCollection.css'
 
 
 interface Props {
@@ -14,7 +15,7 @@ const PokemonCollection: React.FC<Props> = (props) => {
 
     return(
         <>
-            <section className="collectionContainer">
+            <section className="PokemonCollection__container">
                 {pokemons.map((pokemon) => {
                 return (
                     <PokemonList 
