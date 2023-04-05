@@ -20,20 +20,29 @@
 
 /* Variables selon le type */
 
-/* .rock {
-    background-color: red;
-} */
-/* .ghost {
-    background-color: red;
-} */
+.bug {
+    background-color: #e3f99d;
+}
 .electric {
     background-color: #ffffbd;
+}
+.dark {
+    background-color: #755e6a;
+}
+.dragon {
+    background-color: #e49ced;
 }
 .fairy {
     background-color: #ffc5ce;
 }
+.fighting {
+    background-color: #c7e0a0;
+}
 .fire {
     background-color: #f4b9e1;
+}
+.ghost {
+    background-color: #f071ae;
 }
 .grass {
     background-color:#E2F9E1;
@@ -41,19 +50,27 @@
 .ground {
     background-color: #f4d1b9;
 }
+.ice {
+    background-color: #93cee9;
+}
 .normal {
     background-color: #ffc5ba;
 }
 .poison {
     background-color: #ffaeae;
 }
-/* .bug {
-    background-color: red;
-} */
-
-/* .water {
-    background-color:red;
-} */
+.psychic {
+    background-color: #f4e9b9;
+}
+.rock {
+    background-color: #a5d9a4;
+}
+.steel {
+    background-color: #c7c7c7;
+}
+.water {
+    background-color: #98eef3;
+}
 
 .PokemonList__name {
     font-size: 1.5rem;
@@ -69,8 +86,6 @@
        object-fit: cover ;
     margin: 1rem;
 }
-
-
 
 .PokemonList__type {
     text-transform: capitalize ;
