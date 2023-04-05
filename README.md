@@ -1,6 +1,6 @@
 # Projet Pokedex-Pokemon
 
-<h2> Description : </h2>
+<h2> Description :mag: </h2>
 
 Cette application est un Pokedex qui affiche une liste de pokémons avec leurs ID, leurs noms, leurs photos et leurs types.
 <br>
