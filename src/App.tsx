@@ -60,7 +60,7 @@ const App: React.FC = () => {
     <div className='app'>
       <h1>Pokemon</h1>
       <PokemonCollection pokemons={pokemons} />
-      <button onClick={nextPage}>Voir +</button>
+      <button onClick={nextPage}>Voir + de Pokémons</button>
   </div>
   );
 }

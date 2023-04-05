@@ -15,6 +15,38 @@ h1 {
 
 body {
   background-color: #ffe5e5;
-  
 }
 
+button {
+  background-image: -o-linear-gradient(left, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ed6ea0), color-stop(#ec8c69), color-stop(#f7186a) , to(#FBB03B));
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    -webkit-box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+            box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  background-size: 300% 100%;
+  border: none;
+  
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  width: 20rem;
+  height: 4rem;
+  color: #fff;
+  display: block;
+  margin: 3rem auto;
+  border-radius: 10px;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-position: 100% 0;
+  -webkit-box-shadow: 0 15px 20px rgba(236, 116, 149, 0.4);
+          box-shadow: 0 15px 20px rgba(236, 116, 149, 0.4);
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
