@@ -31,4 +31,5 @@ const PokemonCollection: React.FC<Props> = (props) => {
     )  
 }
 
+
 export default PokemonCollection;
