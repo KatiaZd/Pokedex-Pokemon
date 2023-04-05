@@ -8,7 +8,6 @@ interface Props {
     pokemons: Pokemon[];
 }
 
-
 const PokemonCollection: React.FC<Props> = (props) => {
     const {pokemons} = props
     // console.log(pokemonList)
